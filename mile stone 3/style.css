@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: #ffffff; /* White background */
+}
+
+form {
+    margin: auto;
+    background-color: #ffffff; /* White for form background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+    padding: 20px;
+    max-width: 600px;
+    border: 2px solid navy; /* Navy blue border */
+}
+
+h1 {
+    text-align: center;
+    color: navy; /* Navy blue */
+}
+
+fieldset {
+    border: 2px solid gold; /* Golden border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #e9f2ff; /* Light blue background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Darker shadow for fieldset */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: navy; /* Navy blue */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: navy; /* Navy blue */
+}
+
+input,
+textarea {
+    margin-top: 4px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    border: 1px solid navy; /* Navy blue */
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for inputs/textarea */
+}
+
+button {
+    display: block;
+    width: 100%; /* Full width */
+    background-color: navy; /* Navy blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: gold; /* Golden on hover */
+    color: navy; /* Navy text on hover */
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid navy; /* Navy blue border */
+    border-radius: 10px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
+}
+
+#resume-display h2 {
+    color: navy; /* Navy blue */
+}
+
+/* Dark Mode Style */
+.dark-mode {
+    background: navy; /* Navy blue background */
+    color: white; /* White text */
+}
+
+.dark-mode fieldset {
+    border: 2px solid gold; /* Golden border */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white for contrast */
+}
